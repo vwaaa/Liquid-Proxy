@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+import fetch from "node-fetch";
+import http from "http";
+import { URL } from "url";
+
+const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -212,4 +216,4 @@
 </script>
 
 </body>
-</html>
+</html>`;
